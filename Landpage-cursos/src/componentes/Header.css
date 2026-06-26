@@ -1,0 +1,17 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-premium {
+    background-color: #00A2F7;
+    width: 156px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    font-weight: bolder;
+    color: #FFFFFF;
+    margin-right: 1rem;
+}
