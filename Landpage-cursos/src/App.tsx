@@ -4,8 +4,9 @@ import { Footer } from "./componentes/Footer"
 
 function Container(){
   return (
-    <div className="content">
+    <div className="content bg-amber-500">
         <Header/>
+        eu sou 
         <Footer/>
     </div>
   )

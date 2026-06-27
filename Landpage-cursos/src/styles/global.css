@@ -1,3 +1,6 @@
+@import "tailwindcss"
+@source "./src"
+
 * {
     padding: 0;
     margin: 0;
@@ -9,4 +12,13 @@ html {
 
 .container-fluid {
     max-width: auto;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+.content {
+    @apply bg-red-500
 }
