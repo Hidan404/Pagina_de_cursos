@@ -4,7 +4,7 @@ import { Footer } from "./componentes/Footer"
 
 function Container(){
   return (
-    <div className="content bg-amber-500">
+    <div className="flex flex-col justify-between h-screen bg-[#F4FBFF]">
         <Header/>
         eu sou 
         <Footer/>
