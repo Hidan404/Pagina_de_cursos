@@ -5,7 +5,7 @@ export function Header(){
         <header>
             <nav className="menu">
                 <img src="./Logo.png" alt="" />
-                <p className="btn-premium">Premium</p>
+                <p className="btn-premium cursor-pointer">Premium</p>
             </nav>
         </header>
         
